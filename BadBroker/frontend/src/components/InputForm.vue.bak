@@ -94,7 +94,7 @@ export default {
         })
         .catch((e) => {
           this.isErrorShow = true;
-          this.errs = e.response.data.errmsg;
+          this.errs = e;
           this.isOutputShow = false;
         });
     },
